@@ -1,0 +1,44 @@
+Things that will be in ploneide
+===============================
+
+Code writing
+------------
+Features to have in the text editor
+
+  * Code introspection
+    Provide ways to introspect the object, obtain method names, docstrings, etc
+
+  * Classes and methods navigation
+    When writing code, you often want to go to the declaration of a class, method, etc.
+    Provide a way to open the proper file in the correct file number with 1 or 2 clicks
+
+  * Renaming
+    Provide renaming functionality, automatically changing configure.zcml, py files, pt files, etc.
+    Check for name conflicts
+
+
+Contextual helpers
+------------------
+According to where the ploneide is opened, provide contextual information
+
+  * Interfaces
+    Provide a list with all interfaces the object provides
+
+  * Permissions
+    Provide information about permissions, help identify which roles have which permissions, etc
+
+
+Products creation
+-----------------
+Allow the code to be exported to be used in a custom product. With the automatic creation of configure.zcml entries, py files, pt files, etc
+
+
+Debugging
+---------
+
+  * Provide ways to debug code, adding breakpoints to the code with point and click, list of local and global variables, etc (similar functionality as provided by popular IDEs like Eclipse or Netbeans)
+  
+  
+Features
+--------
+  * Persistent save for sessions (for example in an annotation), in this way you don't lose your opened files because of a browser crash

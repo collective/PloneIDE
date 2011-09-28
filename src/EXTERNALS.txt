@@ -1,0 +1,7 @@
+#
+# Create this file: svn propget svn:externals . > EXTERNALS.txt
+# Apply this file:  svn propset svn:externals -F EXTERNALS.txt .
+#
+
+collective.ploneide http://svn.plone.org/svn/collective/collective.ploneide/trunk
+collective.recipe.ploneide http://svn.plone.org/svn/collective/collective.recipe.ploneide/trunk
